@@ -23,8 +23,8 @@ The user menu changes based on the user's authentication status:
 ## 3. Batch and User Search
 The homepage includes,  New Batch Button, forms that allow users to search for batches by Batch ID or Username. These search forms provide quick access to relevant batch information:
   - **New Batch Button**: This Button allows a user to add a New Batch. The Button takes a user to another page where the new Batch is created.
-  - **New Batch Button**: Users can input a specific batch ID into the "Batch ID" field and submit the form to retrieve details about that batch. The Batch is searched by Number, So the user must enter the strictly the Batch ID inform of Number.
-  - **New Batch Button**: Users can enter a specific username in the "Username" field to view all batches associated with them. This feature allows for filtering batches by user and can be useful for tracking contributions from specific accounts.     
+  - **Batch ID**: Users can input a specific batch ID into the "Batch ID" field and submit the form to retrieve details about that batch. The Batch is searched by Number, So the user must enter the strictly the Batch ID inform of Number.
+  - **Username**: Users can enter a specific username in the "Username" field to view all batches associated with them. This feature allows for filtering batches by user and can be useful for tracking contributions from specific accounts.     
 
 ## 4. Content Section
 The content section (`{% block content %}`) is a placeholder in the layout file. This is where dynamic content will be loaded depending on the user's actions or the active page. For instance, when a user creates a new batch, the content displayed here would change to reflect that functionality.
